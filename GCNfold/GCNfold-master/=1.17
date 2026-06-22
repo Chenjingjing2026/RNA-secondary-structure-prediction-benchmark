@@ -1,0 +1,9 @@
+Channels:
+ - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2
+ - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+ - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+ - defaults
+ - nvidia
+ - pytorch
+Platform: linux-64
+Collecting package metadata (repodata.json): ...working... 

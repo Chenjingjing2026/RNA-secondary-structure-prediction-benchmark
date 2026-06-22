@@ -1,0 +1,169 @@
+/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/setuptools/sandbox.py:15: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/pkg_resources/__init__.py:3117: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/pkg_resources/__init__.py:3117: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/paddlenlp/ops/ext_utils.py:24: DeprecationWarning: dep_util is Deprecated. Use functions from setuptools instead.
+  from distutils.dep_util import newer_group
+W0314 23:51:49.871435  6852 gpu_resources.cc:61] Please NOTE: device: 0, GPU Compute Capability: 8.9, Driver API Version: 12.4, Runtime API Version: 11.6
+W0314 23:51:49.880204  6852 gpu_resources.cc:91] device: 0, cuDNN Version: 8.4.
+Epoch: 0
+Train Epoch: 0	Time: 1035.978s
+Model saved at: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/Rivas/Rivas/Mar14_23-51-49/epoch_0/model_state.pdparams
+Test	Rivas	f1s: 0.4726	accuracy: 0.9953	precision: 0.4226	recall: 0.5477	
+Epoch: 1
+Train Epoch: 1	Time: 1031.962s
+Remove old max model dir: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/Rivas/Rivas/Mar14_23-51-49/epoch_0
+Model saved at: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/Rivas/Rivas/Mar14_23-51-49/epoch_1/model_state.pdparams
+Test	Rivas	f1s: 0.5115	accuracy: 0.9958	precision: 0.4726	recall: 0.5705	
+Epoch: 2
+Train Epoch: 2	Time: 1034.038s
+Remove old max model dir: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/Rivas/Rivas/Mar14_23-51-49/epoch_1
+Model saved at: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/Rivas/Rivas/Mar14_23-51-49/epoch_2/model_state.pdparams
+Test	Rivas	f1s: 0.5139	accuracy: 0.9958	precision: 0.4694	recall: 0.5806	
+Epoch: 3
+Train Epoch: 3	Time: 1036.695s
+Test	Rivas	f1s: 0.4894	accuracy: 0.9955	precision: 0.4388	recall: 0.5647	
+Epoch: 4
+Train Epoch: 4	Time: 1030.645s
+Remove old max model dir: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/Rivas/Rivas/Mar14_23-51-49/epoch_2
+Model saved at: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/Rivas/Rivas/Mar14_23-51-49/epoch_4/model_state.pdparams
+Test	Rivas	f1s: 0.5358	accuracy: 0.9962	precision: 0.5018	recall: 0.5879	
+Epoch: 5
+Train Epoch: 5	Time: 973.811s
+Test	Rivas	f1s: 0.4877	accuracy: 0.9955	precision: 0.4431	recall: 0.5538	
+Epoch: 6
+Train Epoch: 6	Time: 955.758s
+Test	Rivas	f1s: 0.4913	accuracy: 0.9959	precision: 0.4645	recall: 0.5342	
+Epoch: 7
+Train Epoch: 7	Time: 954.985s
+Test	Rivas	f1s: 0.4743	accuracy: 0.9954	precision: 0.4318	recall: 0.5371	
+Epoch: 8
+Train Epoch: 8	Time: 986.764s
+Test	Rivas	f1s: 0.4805	accuracy: 0.9955	precision: 0.4426	recall: 0.5382	
+Epoch: 9
+Train Epoch: 9	Time: 989.309s
+Test	Rivas	f1s: 0.4993	accuracy: 0.9958	precision: 0.4634	recall: 0.5532	
+Epoch: 10
+Train Epoch: 10	Time: 952.187s
+Test	Rivas	f1s: 0.5018	accuracy: 0.9959	precision: 0.4713	recall: 0.5494	
+Epoch: 11
+Train Epoch: 11	Time: 925.061s
+Test	Rivas	f1s: 0.4910	accuracy: 0.9958	precision: 0.4643	recall: 0.5328	
+Epoch: 12
+Train Epoch: 12	Time: 923.599s
+Test	Rivas	f1s: 0.4868	accuracy: 0.9958	precision: 0.4592	recall: 0.5298	
+Epoch: 13
+Train Epoch: 13	Time: 921.705s
+Test	Rivas	f1s: 0.4367	accuracy: 0.9952	precision: 0.4035	recall: 0.4866	
+Epoch: 14
+Train Epoch: 14	Time: 941.689s
+Test	Rivas	f1s: 0.5069	accuracy: 0.9959	precision: 0.4786	recall: 0.5526	
+Epoch: 15
+Train Epoch: 15	Time: 935.345s
+Test	Rivas	f1s: 0.4501	accuracy: 0.9951	precision: 0.4076	recall: 0.5124	
+Epoch: 16
+Train Epoch: 16	Time: 928.643s
+Test	Rivas	f1s: 0.4655	accuracy: 0.9957	precision: 0.4461	recall: 0.4982	
+Epoch: 17
+Train Epoch: 17	Time: 902.774s
+Test	Rivas	f1s: 0.4689	accuracy: 0.9955	precision: 0.4282	recall: 0.5284	
+Epoch: 18
+Train Epoch: 18	Time: 868.291s
+Test	Rivas	f1s: 0.4813	accuracy: 0.9956	precision: 0.4496	recall: 0.5295	
+Epoch: 19
+Train Epoch: 19	Time: 846.558s
+Test	Rivas	f1s: 0.4854	accuracy: 0.9957	precision: 0.4565	recall: 0.5304	
+Epoch: 20
+Train Epoch: 20	Time: 835.747s
+Test	Rivas	f1s: 0.4657	accuracy: 0.9955	precision: 0.4364	recall: 0.5102	
+Epoch: 21
+Train Epoch: 21	Time: 829.600s
+Test	Rivas	f1s: 0.4501	accuracy: 0.9957	precision: 0.4498	recall: 0.4624	
+Epoch: 22
+Train Epoch: 22	Time: 836.221s
+Test	Rivas	f1s: 0.4658	accuracy: 0.9954	precision: 0.4297	recall: 0.5215	
+Epoch: 23
+Train Epoch: 23	Time: 849.847s
+Test	Rivas	f1s: 0.4961	accuracy: 0.9958	precision: 0.4638	recall: 0.5441	
+Epoch: 24
+Train Epoch: 24	Time: 831.176s
+Test	Rivas	f1s: 0.4861	accuracy: 0.9957	precision: 0.4497	recall: 0.5407	
+Epoch: 25
+Train Epoch: 25	Time: 831.049s
+Test	Rivas	f1s: 0.4775	accuracy: 0.9960	precision: 0.4721	recall: 0.4951	
+Epoch: 26
+Train Epoch: 26	Time: 822.819s
+Test	Rivas	f1s: 0.4798	accuracy: 0.9955	precision: 0.4421	recall: 0.5357	
+Epoch: 27
+Train Epoch: 27	Time: 817.624s
+Test	Rivas	f1s: 0.4111	accuracy: 0.9956	precision: 0.4237	recall: 0.4138	
+Epoch: 28
+Train Epoch: 28	Time: 872.454s
+Test	Rivas	f1s: 0.4402	accuracy: 0.9955	precision: 0.4228	recall: 0.4700	
+Epoch: 29
+Train Epoch: 29	Time: 873.790s
+Test	Rivas	f1s: 0.4582	accuracy: 0.9956	precision: 0.4309	recall: 0.4996	
+Epoch: 30
+Train Epoch: 30	Time: 891.170s
+Test	Rivas	f1s: 0.4428	accuracy: 0.9956	precision: 0.4372	recall: 0.4614	
+Epoch: 31
+Train Epoch: 31	Time: 894.855s
+Test	Rivas	f1s: 0.4567	accuracy: 0.9955	precision: 0.4315	recall: 0.4964	
+Epoch: 32
+Train Epoch: 32	Time: 887.404s
+Test	Rivas	f1s: 0.4707	accuracy: 0.9955	precision: 0.4414	recall: 0.5149	
+Epoch: 33
+Train Epoch: 33	Time: 890.806s
+Test	Rivas	f1s: 0.4705	accuracy: 0.9958	precision: 0.4559	recall: 0.4970	
+Epoch: 34
+Train Epoch: 34	Time: 889.576s
+Test	Rivas	f1s: 0.4513	accuracy: 0.9956	precision: 0.4306	recall: 0.4852	
+Epoch: 35
+Train Epoch: 35	Time: 897.284s
+Test	Rivas	f1s: 0.4584	accuracy: 0.9954	precision: 0.4233	recall: 0.5110	
+Epoch: 36
+Train Epoch: 36	Time: 907.005s
+Test	Rivas	f1s: 0.3989	accuracy: 0.9950	precision: 0.3767	recall: 0.4338	
+Epoch: 37
+Train Epoch: 37	Time: 895.122s
+Test	Rivas	f1s: 0.4688	accuracy: 0.9958	precision: 0.4628	recall: 0.4873	
+Epoch: 38
+Train Epoch: 38	Time: 903.168s
+Test	Rivas	f1s: 0.4362	accuracy: 0.9954	precision: 0.4200	recall: 0.4651	
+Epoch: 39
+Train Epoch: 39	Time: 898.762s
+Test	Rivas	f1s: 0.4634	accuracy: 0.9955	precision: 0.4309	recall: 0.5121	
+Epoch: 40
+Train Epoch: 40	Time: 889.307s
+Test	Rivas	f1s: 0.5094	accuracy: 0.9960	precision: 0.4841	recall: 0.5497	
+Epoch: 41
+Train Epoch: 41	Time: 870.775s
+Test	Rivas	f1s: 0.4609	accuracy: 0.9955	precision: 0.4309	recall: 0.5071	
+Epoch: 42
+Train Epoch: 42	Time: 873.008s
+Test	Rivas	f1s: 0.4631	accuracy: 0.9956	precision: 0.4452	recall: 0.4946	
+Epoch: 43
+Train Epoch: 43	Time: 871.899s
+Test	Rivas	f1s: 0.4522	accuracy: 0.9954	precision: 0.4243	recall: 0.4957	
+Epoch: 44
+Train Epoch: 44	Time: 868.384s
+Test	Rivas	f1s: 0.4864	accuracy: 0.9957	precision: 0.4577	recall: 0.5302	
+Epoch: 45
+Train Epoch: 45	Time: 860.180s
+Test	Rivas	f1s: 0.4594	accuracy: 0.9955	precision: 0.4302	recall: 0.5041	
+Epoch: 46
+Train Epoch: 46	Time: 865.299s
+Test	Rivas	f1s: 0.4870	accuracy: 0.9961	precision: 0.4914	recall: 0.4973	
+Epoch: 47
+Train Epoch: 47	Time: 851.698s
+Test	Rivas	f1s: 0.4586	accuracy: 0.9955	precision: 0.4327	recall: 0.5003	
+Epoch: 48
+Train Epoch: 48	Time: 850.824s
+Test	Rivas	f1s: 0.4636	accuracy: 0.9956	precision: 0.4342	recall: 0.5087	
+Epoch: 49
+Train Epoch: 49	Time: 850.276s
+Test	Rivas	f1s: 0.4568	accuracy: 0.9958	precision: 0.4470	recall: 0.4793	

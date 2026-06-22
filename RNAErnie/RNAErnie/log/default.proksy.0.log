@@ -1,0 +1,50 @@
+/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/setuptools/sandbox.py:15: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/pkg_resources/__init__.py:3117: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/pkg_resources/__init__.py:3117: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/paddlenlp/ops/ext_utils.py:24: DeprecationWarning: dep_util is Deprecated. Use functions from setuptools instead.
+  from distutils.dep_util import newer_group
+W0403 21:09:06.677984 448721 gpu_resources.cc:61] Please NOTE: device: 0, GPU Compute Capability: 8.9, Driver API Version: 12.4, Runtime API Version: 11.6
+W0403 21:09:06.684729 448721 gpu_resources.cc:91] device: 0, cuDNN Version: 8.4.
+=========Start Train=========
+Epoch: 0
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "/root/miniconda/envs/RNAErnie/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/root/miniconda/envs/RNAErnie/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/paddle/fluid/dataloader/dataloader_iter.py", line 534, in _thread_loop
+    batch = self._get_data()
+  File "/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/paddle/fluid/dataloader/dataloader_iter.py", line 671, in _get_data
+    batch.reraise()
+  File "/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/paddle/fluid/dataloader/worker.py", line 169, in reraise
+    raise self.exc_type(msg)
+FileNotFoundError: DataLoader worker(2) caught FileNotFoundError with message:
+Traceback (most recent call last):
+  File "/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/paddle/fluid/dataloader/worker.py", line 336, in _worker_loop
+    batch = fetcher.fetch(indices)
+  File "/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/paddle/fluid/dataloader/fetcher.py", line 121, in fetch
+    data.append(self.dataset[idx])
+  File "/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/paddlenlp/datasets/dataset.py", line 276, in __getitem__
+    self.new_data[idx]
+  File "/root/lanyun-tmp/RNAErnie/secondary_structure.py", line 86, in __getitem__
+    return self.load_bpseq(file_path)
+  File "/root/lanyun-tmp/RNAErnie/secondary_structure.py", line 97, in load_bpseq
+    with open(filename) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/root/lanyun-tmp/RNAErnie/TempData/bprna_1m/train+valid/bpRNA_RFAM_17055.bpseq'
+
+Traceback (most recent call last):
+  File "run_ssp.py", line 239, in <module>
+    ssp_trainer.train(i_epoch)
+  File "/root/lanyun-tmp/RNAErnie/secondary_structure.py", line 1197, in train
+    for i, instance in enumerate(self.train_dataloader):
+  File "/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/paddle/fluid/dataloader/dataloader_iter.py", line 746, in __next__
+    data = self._reader.read_next_var_list()
+SystemError: (Fatal) Blocking queue is killed because the data reader raises an exception.
+  [Hint: Expected killed_ != true, but received killed_:1 == true:1.] (at /paddle/paddle/fluid/operators/reader/blocking_queue.h:166)
+

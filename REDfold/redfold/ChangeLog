@@ -1,0 +1,15 @@
+
+REDfold Package: Version 1.14(alpha)
+------------
+2022-04-10  Aky  <aky3100@mail.ncyu.edu.tw>
+-program initial buildup
+
+2022-05-15
+-program fixed bugs that appear in muti-sequence parsing
+
+2022-05-24
+-websever setup
+
+2022-12-24
+-package release v1.14
+

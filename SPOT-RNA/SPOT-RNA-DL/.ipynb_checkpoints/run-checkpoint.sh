@@ -1,0 +1,1 @@
+python /root/lanyun-tmp/SPOT-RNA-DL/main.py --datadir /root/lanyun-tmp/SPOT-RNA-DL/data/telomerase --sessName result/telomerase

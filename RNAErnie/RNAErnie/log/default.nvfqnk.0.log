@@ -1,0 +1,17 @@
+/root/miniconda3/envs/RNA/lib/python3.8/site-packages/setuptools/command/easy_install.py:41: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/root/miniconda3/envs/RNA/lib/python3.8/site-packages/pkg_resources/__init__.py:3154: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+WARNING: OMP_NUM_THREADS set to 32, not 1. The computation speed will not be optimized if you use data parallel. It will fail if this PaddlePaddle binary is compiled with OpenBlas since OpenBlas does not support multi-threads.
+PLEASE USE OMP_NUM_THREADS WISELY.
+/root/miniconda3/envs/RNA/lib/python3.8/site-packages/paddle/fluid/framework.py:516: UserWarning: You are using GPU version Paddle, but your CUDA device is not set properly. CPU device will be used by default.
+  warnings.warn(
+/root/miniconda3/envs/RNA/lib/python3.8/site-packages/paddlenlp/ops/ext_utils.py:24: DeprecationWarning: dep_util is Deprecated. Use functions from setuptools instead.
+  from distutils.dep_util import newer_group
+Traceback (most recent call last):
+  File "run_ssp.py", line 36, in <module>
+    from visualizer import Visualizer
+  File "/home/Model/RNAErnie/visualizer.py", line 8, in <module>
+    from visualdl import LogWriter
+ModuleNotFoundError: No module named 'visualdl'

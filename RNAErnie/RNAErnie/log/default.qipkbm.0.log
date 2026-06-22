@@ -1,0 +1,18 @@
+/root/miniconda3/envs/RNAErnie/lib/python3.8/site-packages/setuptools/sandbox.py:15: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/root/miniconda3/envs/RNAErnie/lib/python3.8/site-packages/pkg_resources/__init__.py:3117: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/root/miniconda3/envs/RNAErnie/lib/python3.8/site-packages/pkg_resources/__init__.py:3117: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+WARNING: OMP_NUM_THREADS set to 16, not 1. The computation speed will not be optimized if you use data parallel. It will fail if this PaddlePaddle binary is compiled with OpenBlas since OpenBlas does not support multi-threads.
+PLEASE USE OMP_NUM_THREADS WISELY.
+/root/miniconda3/envs/RNAErnie/lib/python3.8/site-packages/paddlenlp/ops/ext_utils.py:24: DeprecationWarning: dep_util is Deprecated. Use functions from setuptools instead.
+  from distutils.dep_util import newer_group
+W0314 00:24:10.879416  2171 gpu_resources.cc:61] Please NOTE: device: 0, GPU Compute Capability: 8.9, Driver API Version: 12.4, Runtime API Version: 11.6
+W0314 00:24:10.886930  2171 gpu_resources.cc:91] device: 0, cuDNN Version: 8.4.
+Epoch: 0
+Train Epoch: 0	Time: 613.519s
+Model saved at: /root/autodl-tmp/RNAErnie/output_ft/output_ft/Rivas/Rivas/Mar14_00-24-10/epoch_0/model_state.pdparams
+Test	Rivas	f1s: 0.4854	accuracy: 0.9955	precision: 0.4406	recall: 0.5529	

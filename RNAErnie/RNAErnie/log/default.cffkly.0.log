@@ -1,0 +1,16 @@
+C:\Users\user\.conda\envs\RNAErnie\lib\site-packages\setuptools\command\easy_install.py:41: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+C:\Users\user\.conda\envs\RNAErnie\lib\site-packages\pkg_resources\__init__.py:3154: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+C:\Users\user\.conda\envs\RNAErnie\lib\site-packages\pkg_resources\__init__.py:3154: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+C:\Users\user\.conda\envs\RNAErnie\lib\site-packages\paddlenlp\ops\ext_utils.py:24: DeprecationWarning: dep_util is Deprecated. Use functions from setuptools instead.
+  from distutils.dep_util import newer_group
+Traceback (most recent call last):
+  File "run_ssp.py", line 27, in <module>
+    from secondary_structure import (
+  File "G:\Model\RNA_Ernie\RNAErnie\secondary_structure.py", line 31, in <module>
+    import interface
+ModuleNotFoundError: No module named 'interface'

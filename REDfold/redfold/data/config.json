@@ -1,0 +1,12 @@
+{
+	"BATCH_SIZE": 10,
+	"batch_size_stage_1": 1,
+	"out_step": 100,
+	"load_model": false,
+	"test_data": "tRNA",
+	"data_type": "/home/chenjingjing/Models/REDfold1/redfold/data/crossfamily_short/tRNA",
+	"model_type": "mod_redense",
+	"epoches_first": 200, 
+	"set_gamma": 1.5,
+	"set_L1": 1
+}

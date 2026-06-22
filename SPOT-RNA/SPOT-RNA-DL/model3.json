@@ -1,0 +1,10 @@
+{
+  "chanNum": 64,
+  "blockANum": 30,
+  "dilaFactor": 1,
+  "disableSeq2seq": false,
+  "Seq2seqHiddenDim": 200,
+  "BlockBHiddenDim": 512,
+  "BlockBHiddenLayer": 0,
+  "lossAlpha": 0
+}

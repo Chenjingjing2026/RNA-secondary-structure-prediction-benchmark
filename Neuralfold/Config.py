@@ -1,0 +1,15 @@
+min_loop_length = 0
+feature_length = 80
+iters_num = 10
+bifurcation = False
+# Parallel = True
+Parallel = False
+gpu = False
+TEST = False
+hidden = 80
+batch_num = 10
+maximum_slots = 100
+base_length = 5
+BATCH = False
+# Iterative_Parameter_Mixture = True
+Iterative_Parameter_Mixture = False

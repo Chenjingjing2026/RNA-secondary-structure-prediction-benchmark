@@ -1,0 +1,22 @@
+/root/miniconda3/envs/RNAErnie/lib/python3.8/site-packages/setuptools/sandbox.py:15: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/root/miniconda3/envs/RNAErnie/lib/python3.8/site-packages/pkg_resources/__init__.py:3117: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/root/miniconda3/envs/RNAErnie/lib/python3.8/site-packages/pkg_resources/__init__.py:3117: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/root/miniconda3/envs/RNAErnie/lib/python3.8/site-packages/paddle/fluid/framework.py:516: UserWarning: You are using GPU version Paddle, but your CUDA device is not set properly. CPU device will be used by default.
+  warnings.warn(
+/root/miniconda3/envs/RNAErnie/lib/python3.8/site-packages/paddlenlp/ops/ext_utils.py:24: DeprecationWarning: dep_util is Deprecated. Use functions from setuptools instead.
+  from distutils.dep_util import newer_group
+Traceback (most recent call last):
+  File "run_ssp.py", line 135, in <module>
+    set_seed(args.seed)
+  File "/root/autodl-tmp/RNAErnie/arg_utils.py", line 25, in set_seed
+    paddle.seed(seed)
+  File "/root/miniconda3/envs/RNAErnie/lib/python3.8/site-packages/paddle/framework/random.py", line 46, in seed
+    for i in range(core.get_cuda_device_count()):
+OSError: (External) CUDA error(100), no CUDA-capable device is detected. 
+  [Hint: 'cudaErrorNoDevice'. This indicates that no CUDA-capable devices were detected by the installed CUDA driver. ] (at /paddle/paddle/phi/backends/gpu/cuda/cuda_info.cc:66)
+

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: rna-fm
+Version: 0.1.2
+Summary: RNA Foundation Model (rna-fm): Pretrained language models for RNAs. From CUHK AIH Lab.
+Home-page: https://github.com/ml4bio/RNA-FM
+Author: CUHK AIH Lab
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.22.0
+Requires-Dist: pandas>=1.3.1
+Requires-Dist: tqdm>=4.62
+Requires-Dist: scikit-learn>=0.24

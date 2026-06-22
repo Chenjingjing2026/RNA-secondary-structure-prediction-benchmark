@@ -1,0 +1,140 @@
+/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/setuptools/sandbox.py:15: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/pkg_resources/__init__.py:3117: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/pkg_resources/__init__.py:3117: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/paddlenlp/ops/ext_utils.py:24: DeprecationWarning: dep_util is Deprecated. Use functions from setuptools instead.
+  from distutils.dep_util import newer_group
+W0402 17:55:08.703855 17023 gpu_resources.cc:61] Please NOTE: device: 0, GPU Compute Capability: 8.9, Driver API Version: 12.4, Runtime API Version: 11.6
+W0402 17:55:08.710685 17023 gpu_resources.cc:91] device: 0, cuDNN Version: 8.4.
+=========Start Train=========
+Epoch: 0
+Train Epoch: 0	Time: 1483.468s
+Model saved at: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_0/model_state.pdparams
+Test	bpRNA1m	f1s: 0.4901	accuracy: 0.9966	precision: 0.5226	recall: 0.4885	mcc: 0.4959	
+Epoch: 1
+Train Epoch: 1	Time: 1412.179s
+Remove old max model dir: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_0
+Model saved at: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_1/model_state.pdparams
+Test	bpRNA1m	f1s: 0.5042	accuracy: 0.9965	precision: 0.5144	recall: 0.5227	mcc: 0.5094	
+Epoch: 2
+Train Epoch: 2	Time: 1433.317s
+Remove old max model dir: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_1
+Model saved at: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_2/model_state.pdparams
+Test	bpRNA1m	f1s: 0.5257	accuracy: 0.9965	precision: 0.5224	recall: 0.5560	mcc: 0.5304	
+Epoch: 3
+Train Epoch: 3	Time: 1430.962s
+Remove old max model dir: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_2
+Model saved at: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_3/model_state.pdparams
+Test	bpRNA1m	f1s: 0.5381	accuracy: 0.9966	precision: 0.5403	recall: 0.5631	mcc: 0.5429	
+Epoch: 4
+Train Epoch: 4	Time: 1442.050s
+Test	bpRNA1m	f1s: 0.5170	accuracy: 0.9969	precision: 0.5482	recall: 0.5189	mcc: 0.5235	
+Epoch: 5
+Train Epoch: 5	Time: 1448.956s
+Remove old max model dir: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_3
+Model saved at: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_5/model_state.pdparams
+Test	bpRNA1m	f1s: 0.5446	accuracy: 0.9965	precision: 0.5345	recall: 0.5842	mcc: 0.5497	
+Epoch: 6
+Train Epoch: 6	Time: 1462.515s
+Remove old max model dir: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_5
+Model saved at: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_6/model_state.pdparams
+Test	bpRNA1m	f1s: 0.5621	accuracy: 0.9965	precision: 0.5420	recall: 0.6129	mcc: 0.5676	
+Epoch: 7
+Train Epoch: 7	Time: 1541.003s
+Test	bpRNA1m	f1s: 0.5598	accuracy: 0.9967	precision: 0.5506	recall: 0.5994	mcc: 0.5653	
+Epoch: 8
+Train Epoch: 8	Time: 1504.019s
+Test	bpRNA1m	f1s: 0.5454	accuracy: 0.9963	precision: 0.5224	recall: 0.6050	mcc: 0.5519	
+Epoch: 9
+Train Epoch: 9	Time: 1502.387s
+Remove old max model dir: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_6
+Model saved at: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_9/model_state.pdparams
+Test	bpRNA1m	f1s: 0.5737	accuracy: 0.9969	precision: 0.5728	recall: 0.5996	mcc: 0.5781	
+Epoch: 10
+Train Epoch: 10	Time: 1527.233s
+Test	bpRNA1m	f1s: 0.5715	accuracy: 0.9968	precision: 0.5705	recall: 0.5987	mcc: 0.5761	
+Epoch: 11
+Train Epoch: 11	Time: 1474.664s
+Test	bpRNA1m	f1s: 0.5685	accuracy: 0.9970	precision: 0.5841	recall: 0.5801	mcc: 0.5735	
+Epoch: 12
+Train Epoch: 12	Time: 1642.860s
+Test	bpRNA1m	f1s: 0.5706	accuracy: 0.9969	precision: 0.5811	recall: 0.5889	mcc: 0.5759	
+Epoch: 13
+Train Epoch: 13	Time: 1701.720s
+Remove old max model dir: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_9
+Model saved at: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_13/model_state.pdparams
+Test	bpRNA1m	f1s: 0.5768	accuracy: 0.9970	precision: 0.5863	recall: 0.5952	mcc: 0.5819	
+Epoch: 14
+Train Epoch: 14	Time: 1673.413s
+Test	bpRNA1m	f1s: 0.5742	accuracy: 0.9970	precision: 0.5790	recall: 0.5957	mcc: 0.5789	
+Epoch: 15
+Train Epoch: 15	Time: 1754.123s
+Remove old max model dir: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_13
+Model saved at: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_15/model_state.pdparams
+Test	bpRNA1m	f1s: 0.5773	accuracy: 0.9966	precision: 0.5563	recall: 0.6337	mcc: 0.5837	
+Epoch: 16
+Train Epoch: 16	Time: 1763.152s
+Test	bpRNA1m	f1s: 0.5752	accuracy: 0.9966	precision: 0.5528	recall: 0.6358	mcc: 0.5822	
+Epoch: 17
+Train Epoch: 17	Time: 1691.849s
+Remove old max model dir: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_15
+Model saved at: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_17/model_state.pdparams
+Test	bpRNA1m	f1s: 0.5790	accuracy: 0.9968	precision: 0.5687	recall: 0.6164	mcc: 0.5837	
+Epoch: 18
+Train Epoch: 18	Time: 1716.581s
+Remove old max model dir: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_17
+Model saved at: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_18/model_state.pdparams
+Test	bpRNA1m	f1s: 0.5833	accuracy: 0.9969	precision: 0.5772	recall: 0.6133	mcc: 0.5874	
+Epoch: 19
+Train Epoch: 19	Time: 1729.269s
+Test	bpRNA1m	f1s: 0.5786	accuracy: 0.9968	precision: 0.5686	recall: 0.6178	mcc: 0.5838	
+Epoch: 20
+Train Epoch: 20	Time: 1592.834s
+Remove old max model dir: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_18
+Model saved at: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_20/model_state.pdparams
+Test	bpRNA1m	f1s: 0.5931	accuracy: 0.9970	precision: 0.5957	recall: 0.6148	mcc: 0.5974	
+Epoch: 21
+Train Epoch: 21	Time: 1518.455s
+Test	bpRNA1m	f1s: 0.5914	accuracy: 0.9970	precision: 0.5967	recall: 0.6086	mcc: 0.5953	
+Epoch: 22
+Train Epoch: 22	Time: 1588.231s
+Test	bpRNA1m	f1s: 0.5890	accuracy: 0.9967	precision: 0.5704	recall: 0.6400	mcc: 0.5948	
+Epoch: 23
+Train Epoch: 23	Time: 1645.363s
+Test	bpRNA1m	f1s: 0.5902	accuracy: 0.9969	precision: 0.5801	recall: 0.6265	mcc: 0.5948	
+Epoch: 24
+Train Epoch: 24	Time: 1604.706s
+Test	bpRNA1m	f1s: 0.5930	accuracy: 0.9970	precision: 0.5973	recall: 0.6139	mcc: 0.5975	
+Epoch: 25
+Train Epoch: 25	Time: 1666.358s
+Test	bpRNA1m	f1s: 0.5887	accuracy: 0.9969	precision: 0.5829	recall: 0.6227	mcc: 0.5937	
+Epoch: 26
+Train Epoch: 26	Time: 1613.501s
+Test	bpRNA1m	f1s: 0.5853	accuracy: 0.9968	precision: 0.5722	recall: 0.6274	mcc: 0.5905	
+Epoch: 27
+Train Epoch: 27	Time: 1581.325s
+Remove old max model dir: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_20
+Model saved at: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_27/model_state.pdparams
+Test	bpRNA1m	f1s: 0.5955	accuracy: 0.9969	precision: 0.5909	recall: 0.6264	mcc: 0.6001	
+Epoch: 28
+Train Epoch: 28	Time: 1626.819s
+Test	bpRNA1m	f1s: 0.5940	accuracy: 0.9971	precision: 0.6063	recall: 0.6043	mcc: 0.5980	
+Epoch: 29
+Train Epoch: 29	Time: 1463.264s
+Remove old max model dir: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_27
+Model saved at: /root/lanyun-tmp/RNAErnie/output_ft/output_ft/bpRNA1m/bpRNA1m/Apr02_17-55-08/epoch_29/model_state.pdparams
+Test	bpRNA1m	f1s: 0.5977	accuracy: 0.9970	precision: 0.6004	recall: 0.6227	mcc: 0.6027	
+Epoch: 30
+Train Epoch: 30	Time: 1378.608s
+Test	bpRNA1m	f1s: 0.5855	accuracy: 0.9972	precision: 0.6091	recall: 0.5881	mcc: 0.5904	
+Epoch: 31
+
+['/root/lanyun-tmp/RNAErnie/TempData/bprna_1m/train+valid/bpRNA_RFAM_17055.bpseq']
+nan nan nan
+('CAAUGACUACAACCGCACAGACUAGGUUUAUAAAUGGAUCUCCCUACCUAGAAUGGCGAGUCUGAGUAUAUGA',)
+Train Epoch: 31	Time: 693.561s
+Test	bpRNA1m	f1s: 0.0000	accuracy: 0.9954	precision: 0.0000	recall: 0.0000	mcc: 0.0000	

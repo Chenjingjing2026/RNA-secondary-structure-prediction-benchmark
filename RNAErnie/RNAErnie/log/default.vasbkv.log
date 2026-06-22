@@ -1,0 +1,1 @@
+[{'name': 'vasbkv', 'rank': -1, 'replicas': 1, 'dtype': 'gpu', 'candidate': '172.21.114.2:39763', 'endpoints': '172.21.114.2:53615'}]

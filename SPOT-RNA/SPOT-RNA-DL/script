@@ -1,0 +1,19 @@
+model0:
+
+nohup python main.py --datadir data/ --sessName model0 --resBlockNum 16 --chanNum 48 --lossAlpha 4 --FCHiddenLayer 2 --disableLSTM > model0.log 2>&1 &
+
+model1:
+
+nohup python main.py --datadir data/ --sessName model1 --resBlockNum 20 --chanNum 64 --lossAlpha 4 --FCHiddenLayer 1 --disableLSTM > model1.log 2>&1 &
+
+model2:
+
+nohup python main.py --datadir data/ --sessName model2 --resBlockNum 30 --chanNum 64 --lossAlpha 4 --FCHiddenLayer 1 --disableLSTM > model2.log 2>&1 &
+
+model3:
+
+nohup python main.py --datadir data/ --sessName model3 --resBlockNum 30 --chanNum 64 --lossAlpha 0 --FCHiddenLayer 0 > model3.log 2>&1 &
+
+model4:
+
+nohup python main.py --datadir data/ --sessName model4 --resBlockNum 30 --chanNum 64 --lossAlpha 0 --FCHiddenLayer 1 --disableLSTM> model4.log 2>&1 &

@@ -1,0 +1,18 @@
+/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/setuptools/sandbox.py:15: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/pkg_resources/__init__.py:3117: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/pkg_resources/__init__.py:3117: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/paddlenlp/ops/ext_utils.py:24: DeprecationWarning: dep_util is Deprecated. Use functions from setuptools instead.
+  from distutils.dep_util import newer_group
+Traceback (most recent call last):
+  File "run_ssp.py", line 158, in <module>
+    pretrained_model = ErnieModel.from_pretrained(args.model_name_or_path)
+  File "/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/paddlenlp/transformers/model_utils.py", line 275, in from_pretrained
+    resolved_resource_files[file_id] = get_path_from_url(
+  File "/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/paddlenlp/utils/downloader.py", line 156, in get_path_from_url
+    assert is_url(url), "downloading from {} not a url".format(url)
+AssertionError: downloading from /root/autodl-tmp/RNAErnie/output/BERT,ERNIE,MOTIF,PROMPT/checkpoint_final/model_state.pdparams not a url

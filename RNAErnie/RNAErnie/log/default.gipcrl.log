@@ -1,0 +1,1 @@
+[{'name': 'gipcrl', 'rank': -1, 'replicas': 1, 'dtype': 'gpu', 'candidate': '192.168.1.105:27184', 'endpoints': '192.168.1.105:27185'}]

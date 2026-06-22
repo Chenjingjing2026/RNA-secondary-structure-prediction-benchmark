@@ -1,0 +1,262 @@
+/root/miniconda3/envs/RNA/lib/python3.8/site-packages/setuptools/command/easy_install.py:41: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/root/miniconda3/envs/RNA/lib/python3.8/site-packages/pkg_resources/__init__.py:3154: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/root/miniconda3/envs/RNA/lib/python3.8/site-packages/pkg_resources/__init__.py:3154: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+WARNING: OMP_NUM_THREADS set to 16, not 1. The computation speed will not be optimized if you use data parallel. It will fail if this PaddlePaddle binary is compiled with OpenBlas since OpenBlas does not support multi-threads.
+PLEASE USE OMP_NUM_THREADS WISELY.
+/root/miniconda3/envs/RNA/lib/python3.8/site-packages/paddlenlp/ops/ext_utils.py:24: DeprecationWarning: dep_util is Deprecated. Use functions from setuptools instead.
+  from distutils.dep_util import newer_group
+[35m[2025-03-12 23:11:26,345] [   DEBUG][0m - Loading configuration.[0m
+[35m[2025-03-12 23:11:26,347] [   DEBUG][0m - ============================================================[0m
+[35m[2025-03-12 23:11:26,347] [   DEBUG][0m - RNA Secondary Structure Prediction. Configuration Arguments[0m
+[35m[2025-03-12 23:11:26,347] [   DEBUG][0m - paddle commit id              :4596b9a22540fb0ea5d369c3c804544de61d03d0[0m
+[35m[2025-03-12 23:11:26,347] [   DEBUG][0m - model_name_or_path            :/home/Models/RNAErnie/output/BERT,ERNIE,MOTIF,PROMPT/checkpoint_final[0m
+[35m[2025-03-12 23:11:26,347] [   DEBUG][0m - model_path                    :./output_ft/ssp/RNAStrAlign/BERT,ERNIE,MOTIF,PROMPT/model_state.pdparams[0m
+[35m[2025-03-12 23:11:26,347] [   DEBUG][0m - two_stage                     :False[0m
+[35m[2025-03-12 23:11:26,347] [   DEBUG][0m - top_k                         :3[0m
+[35m[2025-03-12 23:11:26,347] [   DEBUG][0m - with_pretrain                 :True[0m
+[35m[2025-03-12 23:11:26,347] [   DEBUG][0m - task_name                     :RNAStrAlign[0m
+[35m[2025-03-12 23:11:26,347] [   DEBUG][0m - k_mer                         :1[0m
+[35m[2025-03-12 23:11:26,348] [   DEBUG][0m - vocab_path                    :./data/vocab/vocab_1MER.txt[0m
+[35m[2025-03-12 23:11:26,348] [   DEBUG][0m - vocab_size                    :39[0m
+[35m[2025-03-12 23:11:26,348] [   DEBUG][0m - dataloader_num_workers        :8[0m
+[35m[2025-03-12 23:11:26,348] [   DEBUG][0m - dataloader_drop_last          :True[0m
+[35m[2025-03-12 23:11:26,348] [   DEBUG][0m - dataset_dir                   :/home/Models/RNAErnie/mydata[0m
+[35m[2025-03-12 23:11:26,348] [   DEBUG][0m - train                         :True[0m
+[35m[2025-03-12 23:11:26,348] [   DEBUG][0m - epochs                        :50[0m
+[35m[2025-03-12 23:11:26,348] [   DEBUG][0m - disable_tqdm                  :False[0m
+[35m[2025-03-12 23:11:26,348] [   DEBUG][0m - seed                          :0[0m
+[35m[2025-03-12 23:11:26,348] [   DEBUG][0m - device                        :gpu[0m
+[35m[2025-03-12 23:11:26,348] [   DEBUG][0m - num_train_epochs              :50[0m
+[35m[2025-03-12 23:11:26,348] [   DEBUG][0m - batch_size                    :1[0m
+[35m[2025-03-12 23:11:26,348] [   DEBUG][0m - lr                            :0.001[0m
+[35m[2025-03-12 23:11:26,348] [   DEBUG][0m - l1_weight                     :0.0[0m
+[35m[2025-03-12 23:11:26,349] [   DEBUG][0m - l2_weight                     :0.0[0m
+[35m[2025-03-12 23:11:26,349] [   DEBUG][0m - loss_pos_paired               :0.5[0m
+[35m[2025-03-12 23:11:26,349] [   DEBUG][0m - loss_neg_paired               :0.005[0m
+[35m[2025-03-12 23:11:26,349] [   DEBUG][0m - loss_pos_unpaired             :0[0m
+[35m[2025-03-12 23:11:26,349] [   DEBUG][0m - loss_neg_unpaired             :0[0m
+[35m[2025-03-12 23:11:26,349] [   DEBUG][0m - metrics                       :['F1s', 'Accuracy', 'Precision', 'Recall'][0m
+[35m[2025-03-12 23:11:26,349] [   DEBUG][0m - output                        :/home/Models/RNAErnie/output_ft/output_ft/RNAStrAlign/RNAStrAlign/Mar12_23-11-26[0m
+[35m[2025-03-12 23:11:26,349] [   DEBUG][0m - visualdl_dir                  :/home/Models/RNAErnie/output_ft/output_ft/RNAStrAlign/RNAStrAlign/Mar12_23-11-26/visualdl[0m
+[35m[2025-03-12 23:11:26,349] [   DEBUG][0m - logging_steps                 :100[0m
+[35m[2025-03-12 23:11:26,349] [   DEBUG][0m - save_max                      :True[0m
+[35m[2025-03-12 23:11:26,349] [   DEBUG][0m - dataset_train                 :/home/Models/RNAErnie/mydata/RNAStrAlign.lst[0m
+[35m[2025-03-12 23:11:26,349] [   DEBUG][0m - dataset_test                  :/home/Models/RNAErnie/mydata/archiveII.lst[0m
+[35m[2025-03-12 23:11:26,349] [   DEBUG][0m - Set random seeds.[0m
+[35m[2025-03-12 23:11:26,350] [   DEBUG][0m - Set device.[0m
+[35m[2025-03-12 23:11:26,350] [   DEBUG][0m - Set multi-gpus environment.[0m
+[35m[2025-03-12 23:11:26,350] [   DEBUG][0m - Build tokenizer, model, criterion.[0m
+[35m[2025-03-12 23:11:26,350] [   DEBUG][0m - Loading tokenization.[0m
+[32m[2025-03-12 23:11:26,351] [    INFO][0m - Loading pretrained model.[0m
+W0312 23:11:26.353456  3190 gpu_resources.cc:61] Please NOTE: device: 0, GPU Compute Capability: 8.9, Driver API Version: 12.4, Runtime API Version: 11.6
+W0312 23:11:26.359609  3190 gpu_resources.cc:91] device: 0, cuDNN Version: 8.4.
+[32m[2025-03-12 23:11:27,944] [    INFO][0m - Weights from pretrained model not used in ErnieModel: ['cls.predictions.decoder_weight', 'cls.predictions.decoder_bias', 'cls.predictions.transform.weight', 'cls.predictions.transform.bias', 'cls.predictions.layer_norm.weight', 'cls.predictions.layer_norm.bias'][0m
+Epoch: 0
+  0%|          | 0/3247 [00:00<?, ?it/s]WARNING: Detect dataset only contains single fileds, return format changed since Paddle 2.1. In Paddle <= 2.0, DataLoader add a list surround output data(e.g. return [data]), and in Paddle >= 2.1, DataLoader return the single filed directly (e.g. return data). For example, in following code: 
+
+import numpy as np
+from paddle.io import DataLoader, Dataset
+
+class RandomDataset(Dataset):
+    def __getitem__(self, idx):
+        data = np.random.random((2, 3)).astype('float32')
+
+        return data
+
+    def __len__(self):
+        return 10
+
+dataset = RandomDataset()
+loader = DataLoader(dataset, batch_size=1)
+data = next(loader())
+
+In Paddle <= 2.0, data is in format '[Tensor(shape=(1, 2, 3), dtype=float32)]', and in Paddle >= 2.1, data is in format 'Tensor(shape=(1, 2, 3), dtype=float32)'
+
+WARNING: Detect dataset only contains single fileds, return format changed since Paddle 2.1. In Paddle <= 2.0, DataLoader add a list surround output data(e.g. return [data]), and in Paddle >= 2.1, DataLoader return the single filed directly (e.g. return data). For example, in following code: 
+
+import numpy as np
+from paddle.io import DataLoader, Dataset
+
+class RandomDataset(Dataset):
+    def __getitem__(self, idx):
+        data = np.random.random((2, 3)).astype('float32')
+
+        return data
+
+    def __len__(self):
+        return 10
+
+dataset = RandomDataset()
+loader = DataLoader(dataset, batch_size=1)
+data = next(loader())
+
+In Paddle <= 2.0, data is in format '[Tensor(shape=(1, 2, 3), dtype=float32)]', and in Paddle >= 2.1, data is in format 'Tensor(shape=(1, 2, 3), dtype=float32)'
+
+WARNING: Detect dataset only contains single fileds, return format changed since Paddle 2.1. In Paddle <= 2.0, DataLoader add a list surround output data(e.g. return [data]), and in Paddle >= 2.1, DataLoader return the single filed directly (e.g. return data). For example, in following code: 
+
+import numpy as np
+from paddle.io import DataLoader, Dataset
+
+class RandomDataset(Dataset):
+    def __getitem__(self, idx):
+        data = np.random.random((2, 3)).astype('float32')
+
+        return data
+
+    def __len__(self):
+        return 10
+
+dataset = RandomDataset()
+loader = DataLoader(dataset, batch_size=1)
+data = next(loader())
+
+In Paddle <= 2.0, data is in format '[Tensor(shape=(1, 2, 3), dtype=float32)]', and in Paddle >= 2.1, data is in format 'Tensor(shape=(1, 2, 3), dtype=float32)'
+
+WARNING: Detect dataset only contains single fileds, return format changed since Paddle 2.1. In Paddle <= 2.0, DataLoader add a list surround output data(e.g. return [data]), and in Paddle >= 2.1, DataLoader return the single filed directly (e.g. return data). For example, in following code: 
+
+import numpy as np
+from paddle.io import DataLoader, Dataset
+
+class RandomDataset(Dataset):
+    def __getitem__(self, idx):
+        data = np.random.random((2, 3)).astype('float32')
+
+        return data
+
+    def __len__(self):
+        return 10
+
+dataset = RandomDataset()
+loader = DataLoader(dataset, batch_size=1)
+data = next(loader())
+
+In Paddle <= 2.0, data is in format '[Tensor(shape=(1, 2, 3), dtype=float32)]', and in Paddle >= 2.1, data is in format 'Tensor(shape=(1, 2, 3), dtype=float32)'
+
+WARNING: Detect dataset only contains single fileds, return format changed since Paddle 2.1. In Paddle <= 2.0, DataLoader add a list surround output data(e.g. return [data]), and in Paddle >= 2.1, DataLoader return the single filed directly (e.g. return data). For example, in following code: 
+
+import numpy as np
+from paddle.io import DataLoader, Dataset
+
+class RandomDataset(Dataset):
+    def __getitem__(self, idx):
+        data = np.random.random((2, 3)).astype('float32')
+
+        return data
+
+    def __len__(self):
+        return 10
+
+dataset = RandomDataset()
+loader = DataLoader(dataset, batch_size=1)
+data = next(loader())
+
+In Paddle <= 2.0, data is in format '[Tensor(shape=(1, 2, 3), dtype=float32)]', and in Paddle >= 2.1, data is in format 'Tensor(shape=(1, 2, 3), dtype=float32)'
+
+WARNING: Detect dataset only contains single fileds, return format changed since Paddle 2.1. In Paddle <= 2.0, DataLoader add a list surround output data(e.g. return [data]), and in Paddle >= 2.1, DataLoader return the single filed directly (e.g. return data). For example, in following code: 
+
+import numpy as np
+from paddle.io import DataLoader, Dataset
+
+class RandomDataset(Dataset):
+    def __getitem__(self, idx):
+        data = np.random.random((2, 3)).astype('float32')
+
+        return data
+
+    def __len__(self):
+        return 10
+
+dataset = RandomDataset()
+loader = DataLoader(dataset, batch_size=1)
+data = next(loader())
+
+In Paddle <= 2.0, data is in format '[Tensor(shape=(1, 2, 3), dtype=float32)]', and in Paddle >= 2.1, data is in format 'Tensor(shape=(1, 2, 3), dtype=float32)'
+
+WARNING: Detect dataset only contains single fileds, return format changed since Paddle 2.1. In Paddle <= 2.0, DataLoader add a list surround output data(e.g. return [data]), and in Paddle >= 2.1, DataLoader return the single filed directly (e.g. return data). For example, in following code: 
+
+import numpy as np
+from paddle.io import DataLoader, Dataset
+
+class RandomDataset(Dataset):
+    def __getitem__(self, idx):
+        data = np.random.random((2, 3)).astype('float32')
+
+        return data
+
+    def __len__(self):
+        return 10
+
+dataset = RandomDataset()
+loader = DataLoader(dataset, batch_size=1)
+data = next(loader())
+
+In Paddle <= 2.0, data is in format '[Tensor(shape=(1, 2, 3), dtype=float32)]', and in Paddle >= 2.1, data is in format 'Tensor(shape=(1, 2, 3), dtype=float32)'
+
+WARNING: Detect dataset only contains single fileds, return format changed since Paddle 2.1. In Paddle <= 2.0, DataLoader add a list surround output data(e.g. return [data]), and in Paddle >= 2.1, DataLoader return the single filed directly (e.g. return data). For example, in following code: 
+
+import numpy as np
+from paddle.io import DataLoader, Dataset
+
+class RandomDataset(Dataset):
+    def __getitem__(self, idx):
+        data = np.random.random((2, 3)).astype('float32')
+
+        return data
+
+    def __len__(self):
+        return 10
+
+dataset = RandomDataset()
+loader = DataLoader(dataset, batch_size=1)
+data = next(loader())
+
+In Paddle <= 2.0, data is in format '[Tensor(shape=(1, 2, 3), dtype=float32)]', and in Paddle >= 2.1, data is in format 'Tensor(shape=(1, 2, 3), dtype=float32)'
+
+  0%|          | 0/3247 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "run_ssp.py", line 234, in <module>
+    ssp_trainer.train(i_epoch)
+  File "/home/Models/RNAErnie/secondary_structure.py", line 1206, in train
+    embeddings = self.pretrained_model(input_tensor)[0].detach()
+  File "/root/miniconda3/envs/RNA/lib/python3.8/site-packages/paddle/fluid/dygraph/layers.py", line 930, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/root/miniconda3/envs/RNA/lib/python3.8/site-packages/paddle/fluid/dygraph/layers.py", line 915, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/root/miniconda3/envs/RNA/lib/python3.8/site-packages/paddlenlp/transformers/ernie/modeling.py", line 1002, in forward
+    encoder_outputs = self.encoder(
+  File "/root/miniconda3/envs/RNA/lib/python3.8/site-packages/paddle/fluid/dygraph/layers.py", line 930, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/root/miniconda3/envs/RNA/lib/python3.8/site-packages/paddle/fluid/dygraph/layers.py", line 915, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/root/miniconda3/envs/RNA/lib/python3.8/site-packages/paddlenlp/transformers/model_outputs.py", line 148, in _transformer_encoder_fwd
+    layer_outputs = mod(
+  File "/root/miniconda3/envs/RNA/lib/python3.8/site-packages/paddle/fluid/dygraph/layers.py", line 930, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/root/miniconda3/envs/RNA/lib/python3.8/site-packages/paddle/fluid/dygraph/layers.py", line 915, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/root/miniconda3/envs/RNA/lib/python3.8/site-packages/paddlenlp/transformers/model_outputs.py", line 54, in _transformer_encoder_layer_fwd
+    attn_outputs = self.self_attn(src, src, src, src_mask, cache)
+  File "/root/miniconda3/envs/RNA/lib/python3.8/site-packages/paddle/fluid/dygraph/layers.py", line 930, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/root/miniconda3/envs/RNA/lib/python3.8/site-packages/paddle/fluid/dygraph/layers.py", line 915, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/root/miniconda3/envs/RNA/lib/python3.8/site-packages/paddle/nn/layer/transformer.py", line 400, in forward
+    q, k, v = self._prepare_qkv(query, key, value, cache)
+  File "/root/miniconda3/envs/RNA/lib/python3.8/site-packages/paddle/nn/layer/transformer.py", line 226, in _prepare_qkv
+    q = self.q_proj(query)
+  File "/root/miniconda3/envs/RNA/lib/python3.8/site-packages/paddle/fluid/dygraph/layers.py", line 930, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/root/miniconda3/envs/RNA/lib/python3.8/site-packages/paddle/fluid/dygraph/layers.py", line 915, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/root/miniconda3/envs/RNA/lib/python3.8/site-packages/paddle/nn/layer/common.py", line 171, in forward
+    out = F.linear(
+  File "/root/miniconda3/envs/RNA/lib/python3.8/site-packages/paddle/nn/functional/common.py", line 1541, in linear
+    pre_bias = _C_ops.matmul_v2(x, weight, 'trans_x', False, 'trans_y',
+OSError: (External) CUBLAS error(7). 
+  [Hint: 'CUBLAS_STATUS_INVALID_VALUE'.  An unsupported value or parameter was passed to the function (a negative vector size, for example). To correct: ensure that all the parameters being passed have valid values. ] (at /paddle/paddle/phi/kernels/funcs/blas/blas_impl.cu.h:35)
+  [operator < matmul_v2 > error]

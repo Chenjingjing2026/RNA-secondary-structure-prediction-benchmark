@@ -1,0 +1,35 @@
+{
+	"exp_name": "performance on short sequences",
+	"gpu": "1",
+	"gcn_net_d": 10,
+	"BATCH_SIZE": 6,
+	"epochs": 100,
+	"init_lr": 0.001,
+	"weight_decay": 0.01,
+	"lr_reduce_factor": 0.5,
+    "lr_schedule_patience": 10,
+	"best_epoch": 91,
+	"OUT_STEP": 100,
+	"LOAD_MODEL": true,
+	"rho_per_position": "matrix",
+	"data_type": "bprna_new",
+	"test_data_type": "bprna_new",
+	"model_type": "bprna_1m",
+	"save_folder": "result/bprna_1m/ct_file",
+	"test": {
+		"f1": true,
+		"accuracy": false,
+		"energy": false
+	},
+    "net_params": {
+        "L": 2,
+        "hidden_dim": 32,
+        "out_dim": 32,
+        "residual": true,
+        "readout": "mean",
+        "in_feat_dropout": 0.25,
+        "dropout": 0.25,
+        "batch_norm": true,
+        "self_loop": false
+    }
+}

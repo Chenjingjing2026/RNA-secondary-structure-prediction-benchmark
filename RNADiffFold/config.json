@@ -1,0 +1,28 @@
+{
+  "project_name": "evaluation",
+  "save_root_path": "./evaluation",
+  "model_ckpt_path": "/home/chenjingjing/Models/RNA_DiffFold/RNADiffFold/result/pes1/logs/rnadifffold/pes_160_multinomial_diffusion_adam/2025-09-09_12-04-07/check/checkpoint.pt",
+  "seed": 1,
+  "device": "cuda:3",
+  "num_samples": 10,
+  "dry_run": true,
+  "round": 204,
+
+  "data":
+  {
+    "dataset": "medium",
+    "batch_size": 1,
+    "num_workers": 6,
+    "pin_memory": false
+  },
+
+  "model":
+  {
+    "diffusion_steps": 20,
+    "num_classes": 2,
+    "diffusion_dim": 8,
+    "cond_dim": 8,
+    "dp_rate": 0.1,
+    "u_conditioner_ckpt": "ufold_train_pes.pt"
+  }
+}

@@ -1,0 +1,3 @@
+[console_scripts]
+redfold = redfold.__main__:main
+

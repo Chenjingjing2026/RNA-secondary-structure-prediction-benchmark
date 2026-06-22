@@ -1,0 +1,22 @@
+/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/setuptools/sandbox.py:15: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/pkg_resources/__init__.py:3117: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/pkg_resources/__init__.py:3117: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/paddlenlp/ops/ext_utils.py:24: DeprecationWarning: dep_util is Deprecated. Use functions from setuptools instead.
+  from distutils.dep_util import newer_group
+W0402 16:52:09.297801  1553 gpu_resources.cc:61] Please NOTE: device: 0, GPU Compute Capability: 8.9, Driver API Version: 12.4, Runtime API Version: 11.6
+W0402 16:52:09.303740  1553 gpu_resources.cc:91] device: 0, cuDNN Version: 8.4.
+Traceback (most recent call last):
+  File "run_ssp.py", line 184, in <module>
+    model.set_state_dict(paddle.load(args.model_path))
+  File "/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/paddle/framework/io.py", line 1004, in load
+    load_result = _legacy_load(path, **configs)
+  File "/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/paddle/framework/io.py", line 1022, in _legacy_load
+    model_path, config = _build_load_path_and_config(path, config)
+  File "/root/miniconda/envs/RNAErnie/lib/python3.8/site-packages/paddle/framework/io.py", line 169, in _build_load_path_and_config
+    raise ValueError(error_msg % path)
+ValueError: The ``path`` (./output_ft/ssp/RNAStrAlign/BERT,ERNIE,MOTIF,PROMPT/model_state.pdparams) to load model not exists.
